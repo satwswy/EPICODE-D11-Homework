@@ -17,7 +17,7 @@
             <p>My Shop Name : My lovely Shop<br>  
             <a id="atag" href="https://www.google.com/intl/el/gmail/about/">MylovelyShop.email</a></p>
             </footer>
-            <span id="h1name">My lovely Shop</span>
+            <h1 id="h1name">My lovely Shop</h1>
         </div>
     <table>
         <caption>Top Five Products</caption>
@@ -66,6 +66,13 @@
         </tr>
     
     </table>
-    
+    <script>
+        
+           function changeH1() {
+            let firstH1Node = document.getElementById ('h1name')
+                firstH1Node.innerText = "Hey I changed this text, I'm JS"
+           }
+           //changeH1()
+    </script>
 </body>
 </html>
