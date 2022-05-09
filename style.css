@@ -1,0 +1,26 @@
+table {
+    width: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+th {
+    font-size: larger;
+    background-color: rgb(93, 81, 81);
+    color: antiquewhite;
+}
+th, td {
+    padding: 10px;
+}
+td {
+    background-color: rgb(201, 185, 185);
+}
+caption {
+    font-size: x-large;
+    background-color: rgb(87, 72, 72);
+    color: bisque;
+    padding: 8px;
+}
