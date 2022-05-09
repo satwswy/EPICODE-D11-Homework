@@ -68,11 +68,25 @@
     </table>
     <script>
         
-           function changeH1() {
-            let firstH1Node = document.getElementById ('h1name')
-                firstH1Node.innerText = "Hey I changed this text, I'm JS"
+           function changeH1(text) {
+            let firstH1Node = document.getElementsByTagName ('h1')[0]
+                firstH1Node.innerText = text
            }
-           //changeH1()
+           //changeH1("Hey i am a new text")
+           
+           function changebgcolor(color) {
+            let bodyNode = document.getElementsByTagName ('body')[0]
+           bodyNode.style.backgroundColor = color
+         
+           }
+           //changebgcolor("yellow")
+           
+           function changefooter()
+           {
+            let footerNode = document.getElementById ("atag")
+               footerNode.innerText = "fake footer name :)"
+           }
+           //changefooter()
     </script>
 </body>
 </html>
