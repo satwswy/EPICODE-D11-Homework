@@ -24,7 +24,26 @@ caption {
     color: bisque;
     padding: 8px;
 }
-#myShopName {
+
+#h1name {
+    color: rgb(238, 238, 224);
+    font-size: 60px;
+    position: absolute;
+    left: 175px;
+    top: 80px;
+}
+#footer {
+    font-size: 15px;
+    position: absolute;
+    color: yellow;
+    top: 150px;
+    left: 600px;
+}
+#atag {
+    color: yellow;
+}
+#main {
+    margin-bottom: 0px;
     background-image: url("img6.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -32,10 +51,7 @@ caption {
     height: 200px;
     margin-bottom: 0px;
 }
-#h1name {
-    color: rgb(238, 238, 224);
-    font-size: 60px;
+.search-box{
     position: absolute;
-    left: 175px;
-    top: 80px;
+    top: 185px;
 }
