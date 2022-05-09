@@ -24,3 +24,18 @@ caption {
     color: bisque;
     padding: 8px;
 }
+#myShopName {
+    background-image: url("img6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 800px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+#h1name {
+    color: rgb(238, 238, 224);
+    font-size: 60px;
+    position: absolute;
+    left: 175px;
+    top: 80px;
+}
